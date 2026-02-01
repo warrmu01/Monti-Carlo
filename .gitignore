@@ -1,0 +1,44 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ---------------------------
+# OS / Editor noise
+# ---------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---------------------------
+# Jupyter / notebooks
+# ---------------------------
+.ipynb_checkpoints/
+
+# ---------------------------
+# Build / temp files
+# ---------------------------
+build/
+dist/
+*.egg-info/
+
+# ---------------------------
+# Project outputs (generated)
+# ---------------------------
+outputs/
+*.png
+*.xlsx
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log

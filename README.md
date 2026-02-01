@@ -73,6 +73,16 @@ The model produces:
 
 *(Generated outputs are not committed to the repository and can be reproduced by running the model.)*
 
+---
+
+## Sample Output
+
+The chart below shows the simulated distribution of annual O&M costs across 10,000 scenarios, with the approved budget shown as a vertical reference line.
+
+![Simulated Annual O&M Cost Distribution](docs/annual_cost_distribution.png)
+
+---
+
 ## How to Run
 
 1. **Clone the repository**

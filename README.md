@@ -72,3 +72,30 @@ The model produces:
 - A **distribution chart** visualizing simulated annual O&M costs relative to the budget  
 
 *(Generated outputs are not committed to the repository and can be reproduced by running the model.)*
+
+## How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone <repo-url>
+   cd xcel-om-budget-risk
+
+2. **Create and activate a virtual environment**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate 
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the model**
+   ```bash
+   python3 -m src.main
+
+5. **View results**
+   The Excel report and distribution chart will be generated in the outputs/ directory
+
+
+
+
